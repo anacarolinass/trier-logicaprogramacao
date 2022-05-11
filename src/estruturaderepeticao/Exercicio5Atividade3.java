@@ -13,7 +13,7 @@ public class Exercicio5Atividade3 {
 		
 		for (int i = 1; i <= valorImpar; i++) {
 			for (int j = 1; j <= valorImpar; j++) {
-				
+				 
 				if (i == j) {
 					System.out.print(j);
 				}else {

@@ -27,6 +27,7 @@ public class Exercicio5Atividade5 {
 			for (int coluna = 0; coluna < matrizDeInteiros[linha].length; coluna++) {
 				System.out.print(matrizDeInteiros[linha][coluna]);
 
+				//System.out.print(matrizDeInteiros[coluna][linha]);
 				if (linha >= 1 && coluna == 0) {
 					numeros[linha] += matrizDeInteiros[linha][coluna] + ",";
 				} else if ((linha >= 1 && coluna == 1) && !(linha == coluna)) {

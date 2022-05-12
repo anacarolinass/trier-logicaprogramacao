@@ -29,7 +29,10 @@ public class Exercicio6Atividade5 {
 			if (i == nota.length - 1) {
 				mediaDeNotas /= nota.length;
 			}
+			
 		}
+		
+		
 
 		return mediaDeNotas;
 	}

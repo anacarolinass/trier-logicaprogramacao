@@ -22,16 +22,16 @@ public class JogoDaVelha {
 		boolean preencheu = false;
 		boolean ganhou = false;
 
-		System.out.println("Campos com numeros estão vazio");
-		System.out.println("Qual espaço deseja jogar?");
+		System.out.println("Campos com numeros estï¿½o vazio");
+		System.out.println("Qual espaï¿½o deseja jogar?");
 
 		do {
 			tabuleiro(posicoesJogada);
 			String vezDeQualJogador = vezDeQualJogador();
 			System.out.println(vezDeQualJogador);
-			System.out.print("Digite a posição: ");
+			System.out.print("Digite a posiï¿½ï¿½o: ");
 			Integer posicao = sc.nextInt();
-			System.out.print("Digite " + vezDeQualJogador + ": ");
+			System.out.print("Digite  o " + vezDeQualJogador + ": ");
 			String vezDoJogador = sc.next().toUpperCase();
 			posicoesJogada = posicoesVazia(posicao, posicoesJogada, vezDoJogador);
 
@@ -98,10 +98,10 @@ public class JogoDaVelha {
 		String texto = "";
 
 		if (contVezDoJogador % 2 == 0) {
-			texto = "Vez do jogador X";
+			texto = "X";
 			contVezDoJogador++;
 		} else {
-			texto = "Vez do jogador O";
+			texto = "O";
 			contVezDoJogador++;
 		}
 		return texto;
